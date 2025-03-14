@@ -32,6 +32,7 @@ else: print (f'El número es impar')
 print (f'Ejercicio 4')
 
 numero2 = int(input("Indica un numero del 10 al 20: "))
-if (numero2) >= 10 <= 20: print (f'El numero esta en el rango seleccionado')
-else: print(f'El numero no esta en el rango seleccionado')
-
+if numero2 in range(9,21): 
+    print(f'El numero esta en el rango seleccionado')
+else:
+    print(f'El numero no esta en el rango seleccionado')
